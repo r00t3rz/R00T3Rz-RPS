@@ -22,16 +22,16 @@
    " AND THIS FILE IS UNDER The GNU General Public License v3.0 "
 
 
-################################################################
-## Shell Features:                                            ##
-################################################################
-### 1. Execution commands in encrypted and unsuspicious way. ###
-### 2. Use encryption.                                       ###
-### 3. Use unsuspicious functions.                           ###
-### 4. Hidden from lamer'z.                                  ###
-### 5. Bypass some security stuff.                           ###
-### ^ (such as mode-security and some programs'z).           ###
-################################################################
+###################################################################
+## Shell Features:                                               ##
+###################################################################
+### 0x01. Execution commands in encrypted and unsuspicious way. ###
+### 0x02. Use encryption.                                       ###
+### 0x03. Use unsuspicious functions.                           ###
+### 0x04. Hidden from lamer'z.                                  ###
+### 0x05. Bypass some security stuff.                           ###
+### ^ (such as mode-security and some programs'z).              ###
+###################################################################
 ##
 # tHiS sCrIpT wAs cOdEd in 2012 - eDiTeD iN 2014 fOr pUbLiC uSe oNlY 4 r00t3rz.com <3
 # ./hk 
